@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
-import Vote from './components/vote';
 import './App.css';
+import Vote from './components/vote';
+
 
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <Vote/>
+        <Vote />
+        
       </div>
     );
   }
